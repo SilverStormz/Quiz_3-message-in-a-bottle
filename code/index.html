@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -21,6 +22,8 @@
         	renderer="antialias: true; alpha: true">
 		
 		<!-- we dont have camera, assets, items, etc. in here yet -->
+      <a-camera gps-camera rotation-reader></a-camera>
+      <a-box color="pink" gps-projected-entity-place="latitude: <your-latitude>; longitude: <your-longitude>"/>
 
 		</a-scene>
 	</body>
